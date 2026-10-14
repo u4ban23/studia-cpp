@@ -48,14 +48,32 @@ int main() {
 
 
 	// zad 5
-	int f;
-	cout << "Podaj temperature w stopniach Fahrenheita: ";
-	cin >> f;
-	int c;
-	c = 5 * (f - 32) / 9;
-	printf("%d", f);
-	printf(" stopni Fahrenheita to %d stopni Celsjusza\n", c);
-	return 0;
+	//int f;
+	//cout << "Podaj temperature w stopniach Fahrenheita: ";
+	//cin >> f;
+	//int c;
+	//c = 5 * (f - 32) / 9;
+	//printf("%d", f);
+	//printf(" stopni Fahrenheita to %d stopni Celsjusza\n", c);
+	//return 0;
+	 //zad6
 
-	
+	/*string imie, nazwisko;
+	int wiek;
+	cout << " Podaj imie: ";
+	cin >> imie;
+	cout << " Podaj nazwisko: ";
+	cin >> nazwisko;
+	cout << " Podaj wiek: ";
+	cin >> wiek;
+	cout << "Nazywasz sie" << imie << " " << nazwisko << "i masz " << wiek << " lat." << endl;*/
+
+	//zad 7
+	int a, b;
+	cin >> a;
+	cin >> b;
+	cout << a + b << endl;
+	cout << a - b << endl;
+	cout << a * b << endl;
+	cout << a / b << endl;
 }
